@@ -1,10 +1,5 @@
-site_name: web-community-vault
-theme:
-  name: material
-  language: ja
-  font:
-    text: Noto Sans JP
-    code: Noto Sans Mono
+site_name: We部 資料 置き場
+
 nav:
   - はじめに: index.md
   - We部について: about.md
@@ -13,8 +8,21 @@ nav:
   - 活動報告:
     - テンプレート: activities/reports/template.md
   - 運営メモ: operations.md
+
+theme:
+  name: material
+  language: ja
+  font:
+    text: Noto Sans JP
+    code: Noto Sans Mono
+
 repo_url: https://github.com/junhat6/web-community-vault
 edit_uri: '#root/path/docs/'
+
+extra:
+  search:
+    language: 'jp'
+
 markdown_extensions:
   - pymdownx.superfences:
       custom_fences:

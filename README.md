@@ -1,6 +1,14 @@
 # web-community-vault
 
-## セットアップ
+## セットアップ (どちらもホットリロード未対応)
+
+### docker でMkDocsを動かしたい場合 (推奨)
+
+```bash
+docker compose up
+```
+
+- [http://localhost:18000/]
 
 ### ローカルにpython3仮装環境を立ち上げて MkDocsを動かしたい場合
 
@@ -11,11 +19,7 @@ uv pip install -r requirements.txt
 mkdocs serve
 ```
 
-### docker でMkDocsを動かしたい場合
-
-```bash
-docker compose up
-```
+- [http://localhost:8000/]
 
 ## MkDocs使い方
 
