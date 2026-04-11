@@ -2,6 +2,9 @@ site_name: web-community-vault
 theme:
   name: material
   language: ja
+  font:
+    text: Noto Sans JP
+    code: Noto Sans Mono
 nav:
   - はじめに: index.md
   - We部について: about.md
