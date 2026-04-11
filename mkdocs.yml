@@ -5,6 +5,9 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
+  - 年間スケジュール: schedule.md
+  - 活動報告:
+    - テンプレート: activities/reports/template.md
 repo_url: https://github.com/junhat6/web-community-vault
 edit_uri: '#root/path/docs/'
 markdown_extensions:
