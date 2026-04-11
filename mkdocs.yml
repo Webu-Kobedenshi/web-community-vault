@@ -58,7 +58,7 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-          
+
 nav:
   - はじめに: index.md
   - We部について: about.md
@@ -66,4 +66,4 @@ nav:
   - Q&A: faq.md
   - 運営メモ: operations.md
   - 活動記録:
-    - blog/index.md
+      - blog/index.md
