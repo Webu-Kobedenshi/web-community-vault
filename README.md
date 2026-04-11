@@ -2,7 +2,7 @@
 
 ## セットアップ
 
-このリポジトリでは `uv` で仮想環境を作って、`requirements.txt` から依存を入れます。
+### ローカルにpython3仮装環境を立ち上げて MkDocsを動かしたい場合
 
 ```bash
 uv venv .venv
@@ -11,10 +11,16 @@ uv pip install -r requirements.txt
 mkdocs serve
 ```
 
-仮想環境を有効化せずに実行したい場合は、次でも動きます。
+### docker でMkDocsを動かしたい場合
 
 ```bash
-uv venv .venv
-uv pip install -r requirements.txt
-uv run mkdocs serve
+docker compose up
+```
+
+## MkDocs使い方
+
+```bash
+mkdocs serve # 開発環境立ち上げ
+mkdocs build # ビルドファイル
+mkdocs --help # ヘルプ
 ```
