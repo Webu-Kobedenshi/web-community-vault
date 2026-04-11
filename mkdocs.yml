@@ -1,7 +1,7 @@
 site_name: web-community-vault
 theme:
   name: material
-  locale: ja
+  language: ja
 nav:
   - Home: index.md
   - About: about.md
