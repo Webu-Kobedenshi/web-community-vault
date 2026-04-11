@@ -1,0 +1,3 @@
+#!/bin/sh
+npx markdownlint-cli2 --fix $(git diff --cached --name-only --diff-filter=ACM | grep '\.md$')
+git add $(git diff --cached --name-only --diff-filter=ACM | grep '\.md$')
