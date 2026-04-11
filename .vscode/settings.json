@@ -1,0 +1,10 @@
+{
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": "explicit"
+    }
+  },
+  "formatFiles.excludedFolders": [".venv", "site", "node_modules", ".git"]
+}
