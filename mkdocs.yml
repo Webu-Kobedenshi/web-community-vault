@@ -3,11 +3,13 @@ theme:
   name: material
   language: ja
 nav:
-  - Home: index.md
-  - About: about.md
+  - はじめに: index.md
+  - We部について: about.md
   - 年間スケジュール: schedule.md
+  - よくある質問: faq.md
   - 活動報告:
     - テンプレート: activities/reports/template.md
+  - 運営メモ: operations.md
 repo_url: https://github.com/junhat6/web-community-vault
 edit_uri: '#root/path/docs/'
 markdown_extensions:
