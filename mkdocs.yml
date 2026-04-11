@@ -1,13 +1,16 @@
 site_name: We部 資料 置き場
+site_url: https://junhat6.github.io/web-community-vault/
+
+repo_url: https://github.com/junhat6/web-community-vault
 
 nav:
   - はじめに: index.md
   - We部について: about.md
   - 年間スケジュール: schedule.md
   - よくある質問: faq.md
-  - 活動報告:
-    - テンプレート: activities/reports/template.md
   - 運営メモ: operations.md
+  - 活動記録:
+    - blog/index.md
 
 theme:
   name: material
@@ -16,12 +19,12 @@ theme:
     text: Noto Sans JP
     code: Noto Sans Mono
 
-repo_url: https://github.com/junhat6/web-community-vault
-edit_uri: '#root/path/docs/'
-
-extra:
-  search:
-    language: 'jp'
+plugins:
+  - blog
+  - search:
+      lang: ja
+  - minify:
+      minify_html: true
 
 markdown_extensions:
   - pymdownx.superfences:
