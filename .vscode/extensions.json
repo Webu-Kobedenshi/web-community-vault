@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "mosapride.zenkaku",
+        "davidanson.vscode-markdownlint",
+        "takumii.markdowntable",
+        "yzhang.markdown-all-in-one",
+        "bierner.markdown-mermaid"
+    ]
+}
