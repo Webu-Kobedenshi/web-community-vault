@@ -57,3 +57,25 @@ Claude Code 向けの設定ファイルを書きました。このリポジト�
 ナレッジベースの土台はできました。あとは実際の活動を通じて中身を積み上げていくフェーズです。活動報告、議事録、メンバー向けのガイドなど、コミュニティが動くにつれてドキュメントも育てていく予定です。
 
 NotebookLM との連携も具体的に進めていきたいと思っています。構想としては、`main` ブランチに変更が入ったタイミング（GitHub Actions が走るタイミング）で、`docs/` 配下のファイルを自動的に Google ドライブに同期する仕組みを作ること。Google ドライブをソースとして NotebookLM に登録しておけば、ドキュメントを更新するだけでナレッジが自動反映される流れになります。
+
+---
+
+## 2026-04-12 追記：開発環境の整備
+
+### VSCode 保存時自動フォーマット
+
+`.vscode/settings.json` に Markdown ファイルの保存時フォーマットを設定しました。ファイルを保存するたびに markdownlint が自動で走り、スタイルが統一されます。
+
+### 一括フォーマット（Format Files 拡張）
+
+VSCode の拡張機能 `jbockle.jbockle-format-files` を導入。コマンドパレットから「Start Format Files: Workspace」で全 Markdown ファイルを一括フォーマットできます。`.venv/` や `site/` など不要なディレクトリは除外設定済みです。
+
+### コミット前自動フォーマット（git hook）
+
+`git commit` 時にステージングされた Markdown ファイルへ自動で markdownlint が走る仕組みを整えました。lefthook など外部ツールも検討しましたが、依存を最小限にするためシンプルな git hook（シェルスクリプト）を採用。`.githooks/pre-commit` をリポジトリに含め、以下のコマンドで有効化できます。
+
+```bash
+git config core.hooksPath .githooks
+```
+
+README にもセットアップ手順を追記しました。
