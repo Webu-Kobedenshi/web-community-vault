@@ -1,6 +1,15 @@
 site_name: web-community-vault
 theme:
   name: material
+  locale: ja
 nav:
   - Home: index.md
   - About: about.md
+repo_url: https://github.com/junhat6/web-community-vault
+edit_uri: '#root/path/docs/'
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
