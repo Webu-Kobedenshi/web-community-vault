@@ -1,8 +1,16 @@
-site_name: We部 資料 置き場
+# Project information
+site_name: We部ナレッジベース
 site_url: https://junhat6.github.io/web-community-vault/
+# site_author: Martin Donath
+# site_description: >-
+#   Write your documentation in Markdown and create a professional static site in
+#   minutes – searchable, customizable, in 60+ languages, for all devices
 
+# Repository
+# repo_name: junhat6/web-community-vault
 repo_url: https://github.com/junhat6/web-community-vault
 
+# Configuration
 theme:
   name: material
   features:
@@ -37,7 +45,10 @@ theme:
     text: Noto Sans JP
     code: Noto Sans Mono
   # favicon: assets/favicon.png
+  icon:
+    logo: logo
 
+# Plugins
 plugins:
   - blog:
       blog_dir: blog
@@ -52,13 +63,57 @@ plugins:
   - minify:
       minify_html: true
 
+# Extensions
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
 
+# Page tree
 nav:
   - はじめに: index.md
   - We部について: about.md
