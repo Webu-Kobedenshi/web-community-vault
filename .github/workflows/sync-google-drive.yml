@@ -10,15 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Convert md to txt
+    - name: Combine md files into single txt
       run: |
-        cp -r docs $GITHUB_WORKSPACE/docs-sync
-        find $GITHUB_WORKSPACE/docs-sync -name "*.md" | while read f; do
-          mv "$f" "${f%.md}.txt"
-        done
+        find docs -name "*.md" | sort | xargs cat > $GITHUB_WORKSPACE/combined-docs.txt
     - name: rclone
       uses: wei/rclone@v1
       env:
         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
       with:
-        args: sync /github/workspace/docs-sync gdrive:/web-community-vault
+        args: copy /github/workspace/combined-docs.txt gdrive:/web-community-vault
