@@ -16,7 +16,16 @@ We部に関するドキュメントをまとめた場所です。
 !!! tip "NotebookLM を使う前に：同期手順"
     NotebookLMを開いたら、左側のソースから「combined-docs.txt」を選び、「クリックして Google ドライブと同期」を実行してください。
 
-### 参考
+## 運営陣紹介
+
+| 名前     | 役職     | GitHub                                |
+| -------- | -------- | ------------------------------------- |
+| りおん   | 部長     | [GitHub](https://github.com/rion0918) |
+| じゅん   | 副部長   | [GitHub](https://github.com/junhat6)  |
+| コダック | メンバー | [GitHub](https://github.com/Kodak37)  |
+| まめ     | メンバー | [GitHub](https://github.com/mame77/)  |
+
+### リポジトリ構成参考
 
 - [Material for MkDocs ドキュメント](https://squidfunk.github.io/mkdocs-material/)
 - [Material for MkDocs githubリポジトリ](https://github.com/squidfunk/mkdocs-material)
