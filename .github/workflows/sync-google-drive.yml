@@ -10,9 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Convert md to txt
+      run: |
+        cp -r docs /tmp/docs-sync
+        find /tmp/docs-sync -name "*.md" | while read f; do
+          mv "$f" "${f%.md}.txt"
+        done
     - name: rclone
       uses: wei/rclone@v1
       env:
         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
       with:
-        args: sync docs gdrive:/web-community-vault
+        args: sync /tmp/docs-sync gdrive:/web-community-vault
