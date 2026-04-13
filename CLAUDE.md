@@ -62,3 +62,9 @@ docker compose up     # http://localhost:18000 でアクセス可能
 - 新しいページは `docs/` 配下に Markdown で作成し、`mkdocs.yml` の `nav` に追加する。
 - Mermaid 記法による図表が使用可能（` ```mermaid ` ブロック）。
 - サイト全体の言語は日本語（`language: ja`）。
+
+## 注意
+
+- markdown記法****を使う場合前後に空白が必要
+  - 良い例：` **良い例** `
+  - 悪い例：`**悪い例**`

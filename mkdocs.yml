@@ -119,17 +119,16 @@ markdown_extensions:
 # Page tree
 nav:
   - はじめに: index.md
-  - We部について: about.md
-  - 年間スケジュール: schedule.md
+  - We部について: We部について.md
+  - 年間スケジュール: 年間スケジュール.md
   - Q&A:
       - faq/index.md
-      - 参加資格・対象者: faq/participation.md
-      - 参加手続き: faq/procedure.md
-      - 活動内容・ルール: faq/activity.md
-      - 活動場所・設備・PC: faq/venue.md
-      - 費用: faq/cost.md
-      - サポート・コミュニケーション: faq/support.md
-      - オプティム・インターン連携: faq/optim.md
-  - 運営メモ: operations.md
+      - 参加について: faq/参加について.md
+      - 活動内容・ルール: faq/活動内容・ルール.md
+      - 活動場所・設備・PC: faq/活動場所・設備・PC.md
+      - 費用: faq/費用.md
+      - サポート・コミュニケーション: faq/サポート・コミュニケーション.md
+      - オプティム・インターン連携: faq/オプティム・インターン連携.md
+  - 運営メモ: 運営メモ.md
   - 記録ブログ:
       - blog/index.md
