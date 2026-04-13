@@ -15,3 +15,8 @@ We部に関するドキュメントをまとめた場所です。
 
 !!! tip "NotebookLM を使う前に：同期手順"
     NotebookLMを開いたら、左側のソースから「combined-docs.txt」を選び、「クリックして Google ドライブと同期」を実行してください。
+
+### 参考
+
+- [Material for MkDocs ドキュメント](https://squidfunk.github.io/mkdocs-material/)
+- [Material for MkDocs githubリポジトリ](https://github.com/squidfunk/mkdocs-material)
