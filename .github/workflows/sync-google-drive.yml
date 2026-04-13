@@ -9,11 +9,11 @@ jobs:
   rclone:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v4
     - name: Convert md to txt
       run: |
-        cp -r docs /tmp/docs-sync
-        find /tmp/docs-sync -name "*.md" | while read f; do
+        cp -r docs $GITHUB_WORKSPACE/docs-sync
+        find $GITHUB_WORKSPACE/docs-sync -name "*.md" | while read f; do
           mv "$f" "${f%.md}.txt"
         done
     - name: rclone
@@ -21,4 +21,4 @@ jobs:
       env:
         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
       with:
-        args: sync /tmp/docs-sync gdrive:/web-community-vault
+        args: sync /github/workspace/docs-sync gdrive:/web-community-vault
