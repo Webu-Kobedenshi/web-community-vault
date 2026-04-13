@@ -62,6 +62,9 @@ plugins:
       lang: ja
   - minify:
       minify_html: true
+  - htmlproofer:
+      enabled: !ENV [CI, false]
+      raise_error: true
 
 # Extensions
 markdown_extensions:

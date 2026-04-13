@@ -1,6 +1,6 @@
 services:
   mkdocs:
-    image: squidfunk/mkdocs-material
+    build: .
     ports:
       - "8900:8000"
     volumes:
