@@ -68,3 +68,9 @@ docker compose up     # http://localhost:18000 でアクセス可能
 - markdown記法****を使う場合前後に空白が必要
   - 良い例：` **良い例** `
   - 悪い例：`**悪い例**`
+- Markdown 内で HTML を直接使う場合、 `<iframe>` 等は Python-Markdown にブロックレベル要素として認識されないためテキストとして表示されてしまう。必ず `<div>` で囲むこと
+  ```html
+  <div>
+  <iframe src="..." width="100%" height="640" style="border: none;"></iframe>
+  </div>
+  ```
