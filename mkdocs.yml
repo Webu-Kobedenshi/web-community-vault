@@ -120,8 +120,10 @@ markdown_extensions:
 nav:
   - はじめに: index.md
   - We部について: We部について.md
-  - 年間スケジュール: 年間スケジュール.md
-  - 2026年度ソフト4スケジュール: 2026年度ソフト4スケジュール.md
+  - 年間予定:
+      - 2025年度草案: schedule/2025年度草案.md
+      - 2026年度: schedule/2026年度.md
+      - 2026年度ソフト4: schedule/2026年度ソフト4.md
   - Q&A:
       - faq/index.md
       - 参加について: faq/参加について.md
