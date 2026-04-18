@@ -29,3 +29,7 @@ We部に関するドキュメントをまとめた場所です。
 
 - [Material for MkDocs ドキュメント](https://squidfunk.github.io/mkdocs-material/)
 - [Material for MkDocs githubリポジトリ](https://github.com/squidfunk/mkdocs-material)
+
+### We部アイコンについて
+
+- [We部アイコン格納場所](https://github.com/Webu-Kobedenshi/web-community-vault/tree/main/docs/assets/images)
