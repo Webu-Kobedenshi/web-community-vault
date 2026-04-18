@@ -44,9 +44,8 @@ theme:
   font:
     text: Noto Sans JP
     code: Noto Sans Mono
-  # favicon: assets/favicon.png
-  icon:
-    logo: logo
+  favicon: assets/images/webu_icon.png
+  logo: assets/images/webu_icon.png
 
 # Plugins
 plugins:
