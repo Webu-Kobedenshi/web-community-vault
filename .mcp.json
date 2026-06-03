@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "excalidraw": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/junhat6/ghq/github.com/yctimlin/mcp_excalidraw/dist/index.js"
+      ],
+      "env": {
+        "EXPRESS_SERVER_URL": "http://127.0.0.1:3000",
+        "ENABLE_CANVAS_SYNC": "true"
+      }
+    }
+  }
+}

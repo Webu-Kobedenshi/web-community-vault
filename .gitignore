@@ -24,3 +24,5 @@ site/
 *.swp
 .DS_Store
 set_env_vars.sh
+
+excalidraw.log
