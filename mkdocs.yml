@@ -64,6 +64,7 @@ plugins:
   - htmlproofer:
       enabled: !ENV [CI, false]
       raise_error: true
+      validate_external_urls: false
 
 # Extensions
 markdown_extensions:

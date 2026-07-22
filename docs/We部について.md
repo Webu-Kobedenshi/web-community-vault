@@ -57,7 +57,7 @@ We部が生まれた背景や立ち上げへの思いは、下記のブログ記
 
 ## 参加方法
 
-[公式 Web サイト](https://v0-ai-beta-khaki.vercel.app/)の Google フォームから参加希望を送ってください。
+[公式 Web サイト](https://join.web-u.dev/)の Google フォームから参加希望を送ってください。
 詳しくはソフト4の **橋本 怜苑 (はしもと りおん)** または **服部 潤一 (はっとり じゅんいち)** に声をかけてください。
 
 ## 連絡・情報発信
@@ -69,5 +69,5 @@ We部が生まれた背景や立ち上げへの思いは、下記のブログ記
 
 ## リンク
 
-- [We部 公式 Web サイト](https://v0-ai-beta-khaki.vercel.app/)
+- [We部 公式 Web サイト](https://join.web-u.dev/)
 - [OBOG 掲示板](https://webu-portal-web.vercel.app/)

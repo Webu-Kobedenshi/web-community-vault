@@ -8,7 +8,7 @@ We部に関するドキュメントをまとめた場所です。
 
 | リンク                                                                                                                                     | 説明                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- |
-| [We部 公式 Web サイト](https://v0-ai-beta-khaki.vercel.app/)                                                                               | コミュニティの公式サイト                           |
+| [We部 公式 Web サイト](https://join.web-u.dev/)                                                                                            | コミュニティの公式サイト                           |
 | [参加申込フォーム（Google フォーム）](https://docs.google.com/forms/d/e/1FAIpQLSe7OkkLIouK8q6D9doWbvVApyKHpb9BIXULKz_I_i94VBfIsQ/viewform) | 入部希望はこちらから                               |
 | [OBOG 掲示板](https://webu-portal-web.vercel.app/)                                                                                         | OB・OG との交流・情報共有の場                      |
 | [NotebookLM](https://notebooklm.google.com/notebook/81622d4b-dbcb-4a6c-a2c1-19828092a7a8)                                                  | AIにこのコミュニティに関する質問をしたい方はこちら |
