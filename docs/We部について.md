@@ -70,4 +70,4 @@ We部が生まれた背景や立ち上げへの思いは、下記のブログ記
 ## リンク
 
 - [We部 公式 Web サイト](https://join.web-u.dev/)
-- [OBOG 掲示板](https://webu-portal-web.vercel.app/)
+- [OBOG 掲示板](https://web-u.dev/)

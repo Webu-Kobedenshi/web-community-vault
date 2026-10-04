@@ -327,9 +327,9 @@ GW 明け最初の木曜
 | ----------------------------- | ----------------------------------------------------------------------------------------------------- |
 | 公式 Web サイト               | <https://v0-ai-beta-khaki.vercel.app/>                                                                |
 | 参加申込フォーム              | <https://docs.google.com/forms/d/e/1FAIpQLSe7OkkLIouK8q6D9doWbvVApyKHpb9BIXULKz_I_i94VBfIsQ/viewform> |
-| We部 ナレッジベース           | <https://junhat6.github.io/web-community-vault/>                                                      |
+| We部 ナレッジベース           | <https://webu-kobedenshi.github.io/web-community-vault/>                                               |
 | NotebookLM（AI に質問できる） | <https://notebooklm.google.com/notebook/81622d4b-dbcb-4a6c-a2c1-19828092a7a8>                         |
-| OBOG 掲示板                   | <https://webu-portal-web.vercel.app/>                                                                 |
+| OBOG 掲示板                   | <https://web-u.dev/>                                                                                |
 
 > **NotebookLM** は、コミュニティに関する疑問を AI に聞ける場です。
 

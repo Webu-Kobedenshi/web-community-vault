@@ -1,14 +1,14 @@
 # Project information
 site_name: We部ナレッジベース
-site_url: https://junhat6.github.io/web-community-vault/
+site_url: https://webu-kobedenshi.github.io/web-community-vault/
 # site_author: Martin Donath
 # site_description: >-
 #   Write your documentation in Markdown and create a professional static site in
 #   minutes – searchable, customizable, in 60+ languages, for all devices
 
 # Repository
-# repo_name: junhat6/web-community-vault
-repo_url: https://github.com/junhat6/web-community-vault
+# repo_name: Webu-Kobedenshi/web-community-vault
+repo_url: https://github.com/Webu-Kobedenshi/web-community-vault
 
 # Configuration
 theme:

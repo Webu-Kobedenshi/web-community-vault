@@ -17,12 +17,14 @@ jobs:
       - name: Check links with lychee
         uses: lycheeverse/lychee-action@v2
         with:
+          # 振り返り用FigJamボードは認証が必要なため、このボードのみ除外する。
           args: >-
             --verbose
             --no-progress
             --exclude-loopback
             --exclude "https://discord\.gg/"
             --exclude "https://discord\.com/"
+            --exclude "^https://www\.figma\.com/board/mK8yZ2KSsVQLU6wIwrgSCF(/|[?]|$)"
             --include-verbatim
             docs/
           fail: true
