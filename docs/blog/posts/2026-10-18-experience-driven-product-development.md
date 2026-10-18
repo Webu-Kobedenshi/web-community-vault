@@ -441,4 +441,3 @@ AIによって、機能を作ることは以前よりも簡単になっていま
 - [DevFest Kansai 2026（公式ページ）](https://df26.gdgs.jp/kansai/)
 - [「AIでコードは書けるのに、つくりたいものがつくれないあなたへ」登壇者によるセッション紹介](https://note.com/hiroki_hachisuka/n/ndcad3c938130)
 - 書籍『AIでコードは書けるのに、つくりたいものがつくれないあなたへ』
-- [AI時代のUXは「摩擦ゼロ」が正解なのか？ DevFest Kansai 2026で学んだCognitive Surrender](https://zenn.dev/riozenn/articles/d17c1ca87d9d95)（学習記録として記事をまとめる構成と、参考資料の示し方を参考にしました）
