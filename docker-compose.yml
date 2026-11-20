@@ -2,6 +2,6 @@ services:
   mkdocs:
     build: .
     ports:
-      - "8900:8000"
+      - "127.0.0.1:8900:8000"
     volumes:
       - .:/docs

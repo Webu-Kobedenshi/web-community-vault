@@ -5,16 +5,20 @@ on:
       - main
     paths:
       - 'docs/**'
+permissions:
+  contents: read
 jobs:
   rclone:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      with:
+        persist-credentials: false
     - name: Combine md files into single txt
       run: |
         find docs -name "*.md" | sort | xargs cat > $GITHUB_WORKSPACE/combined-docs.txt
     - name: rclone
-      uses: wei/rclone@v1
+      uses: wei/rclone@2ea7b4906515754c0504ca93585918b9c97509ff # v1
       env:
         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
       with:
