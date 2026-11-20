@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["before 9am"],
+  "labels": ["dependencies"],
+  "prHourlyLimit": 0,
+  "dependencyDashboard": {
+    "enabled": true
+  },
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "packageRules": [
+    {
+      "description": "1.0以上のパッチを1つのPRにまとめ、PRのチェック（pr-preview の mkdocs build --strict と link-check）が成功したらRenovateがマージする。mainにブランチ保護がないため、GitHubのauto-mergeではなくRenovate自身がチェック結果を確認してマージする",
+      "matchUpdateTypes": ["patch"],
+      "matchCurrentVersion": "!/^0/",
+      "groupName": "patch updates",
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": false
+    }
+  ]
+}
